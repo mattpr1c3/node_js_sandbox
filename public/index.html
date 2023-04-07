@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Movie Recc Site</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container indigo lighten-5">
+      <h1 class="center">
+        Please enter your username and movie recommendation
+      </h1>
+      <div class="row">
+        <form class="col s12 m12 l12 center" id="form">
+          <div class="row">
+            <div class="input-field col s6">
+              <input
+                placeholder="User Name"
+                id="user-name"
+                type="text"
+                class="validate"
+              />
+              <label for="first_name"></label>
+            </div>
+            <div class="input-field col s6">
+              <input
+                placeholder="Movie Name"
+                id="movie-name"
+                type="text"
+                class="validate"
+              />
+              <label for="movie-name"></label>
+            </div>
+          </div>
+          <div class="row">
+            <button
+              class="btn waves-effect waves-light"
+              type="submit"
+              name="action"
+            >
+              Submit
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
